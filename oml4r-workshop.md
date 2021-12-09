@@ -148,7 +148,7 @@ dim(CUST_INSUR_LTV)
 
 Your result should be: 15342  31
 
-  1. Check data summary for a given object.  This will summarize all the attributes, how many, how much, minimum values, maximum values, etc.
+10. Check data summary for a given object.  This will summarize all the attributes, how many, how much, minimum values, maximum values, etc.
 
 ````
 summary(CUST_INSUR_LTV[,1:20])
