@@ -396,17 +396,14 @@ with(nb.res, table(LTV_BIN,PREDICTION, dnn = c("Actual","Predicted")))
 
 ![class-model](./images/class-model.png)
 
-1. Generate predictions
+30. Generate predictions
 
 ````
 predB = ore.predict(oreFit2, newdata = CIL.test)
 predB
 ````
 
-​          
-
 ## Task 7: Validate predictions
-
 
 31. Validate LTV predictions using RMSE
 
@@ -422,8 +419,6 @@ ore.rmse(localPredictions$PREDICTION, localPredictions$LTV)
 Mean square error is a useful way to determine the extent to which a regression model is capable of integrating a dataset.
 The larger the difference indicates a larger gap between the predicted and observed values, which means poor regression model fit. #In the same way, the smaller RMSE that indicates the better the model.
 Based on RMSE we can compare the two different models with each other and be able to identify which model fits the data better.
-
-
 
 32. Produce confusion matrix for LTV_BIN predictions
 
