@@ -405,7 +405,7 @@ predB
 
 ​          
 
- ## Task 7: Validate predictions
+## Task 7: Validate predictions
 
 
 31. Validate LTV predictions using RMSE
